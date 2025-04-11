@@ -1,7 +1,6 @@
-import { motion, AnimatePresence } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { styles } from "../styles";
-import My_pimage from "../assets/company/My_pimage.png";
 
 // Animation variant for letter-by-letter text reveal
 const textContainer = {
@@ -19,7 +18,7 @@ const textItem = {
   visible: { opacity: 1, y: 0 },
 };
 
-const roles = ["Web Developer", "Web Designer", "Coding Nerd"];
+const roles = ["Web Developer", "Web Designer", "Programmer"];
 
 const Hero = () => {
   // const introText = "I develop modern, user interfaces and web applications";
